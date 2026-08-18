@@ -429,7 +429,7 @@
   }
 }
 html {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /**
@@ -446,7 +446,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif;
+  font: 400 20px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif;
   color: var(--minima-text-color);
   background-color: var(--minima-background-color);
   -webkit-text-size-adjust: 100%;
@@ -499,7 +499,7 @@ figure > img {
 }
 
 figcaption {
-  font-size: 14px;
+  font-size: 17.5px;
 }
 
 /**
@@ -671,7 +671,7 @@ table td {
   border-top: 5px solid var(--minima-border-color-03);
   border-bottom: 1px solid var(--minima-border-color-01);
   min-height: 55.95px;
-  line-height: 54px;
+  line-height: 67.5px;
   position: relative;
 }
 
@@ -800,6 +800,12 @@ table td {
   margin-bottom: 15px;
 }
 
+.footer-col-right {
+  margin-bottom: 15px;
+  white-space: nowrap;
+  text-align: right;
+}
+
 .footer-col-1,
 .footer-col-2 {
   width: calc(50% - 30px / 2);
@@ -862,7 +868,7 @@ table td {
 }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 17.5px;
   color: var(--minima-brand-color);
 }
 
@@ -901,21 +907,26 @@ table td {
 .post-title,
 .post-content h1 {
   margin-bottom: 10px;
-  font-size: 2.625rem;
+  font-size: 2rem;
   letter-spacing: -1px;
   line-height: 1.15;
 }
 @media screen and (min-width: 800px) {
   .post-title,
   .post-content h1 {
-    font-size: 2.625rem;
+    font-size: 2rem;
   }
 }
 
 .post-content {
   margin-bottom: 30px;
 }
-.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
   margin-top: 30px;
 }
 .post-content h2 {
@@ -973,7 +984,8 @@ table td {
 .pagination {
   margin-bottom: 30px;
 }
-.pagination li a, .pagination li div {
+.pagination li a,
+.pagination li div {
   min-width: 41px;
   text-align: center;
   box-sizing: border-box;

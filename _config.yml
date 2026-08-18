@@ -2,7 +2,12 @@ plugins:
   - jekyll-remote-theme
 remote_theme: "jekyll/minima@1e8a445"
 title: leon's lair
-description: Majula's breeze
+permalink: /posts/:title/
+description: "Majula's breeze"
+author:
+  name: "Leon"
+  email: "costale@usi.ch"
+header_pages: 
+  - about.md
 minima:
   skin: auto 
-  nav_pages: about
